@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Physics AiD</title>
+
+    <link rel="shortcut icon" href="./images/icon.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./images/icon.jpg">
+
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <style>
+    *{
+      font-family:cursive;
+    }
+  </style>
+  <body class="bg-body-tertiary">
+
+    <style>
+      .brandLogo{
+        width: 100px;
+        height: auto;
+      }
+      .nav-item a{
+        font-weight: bold;
+      }
+      .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: #15C8F2;
+      }
+      .nav-link:focus, .nav-link:hover {
+        color: #15C8F2;
+      }
+      .myBtn1 {
+          --bs-btn-color: #000;
+          --bs-btn-bg: #15c9f28a;
+          --bs-btn-border-color: #15c9f28a;
+
+          --bs-btn-hover-color: #fff;
+          --bs-btn-hover-bg: #15C8F2;
+          --bs-btn-hover-border-color: #15C8F2;
+
+          --bs-btn-focus-shadow-rgb: 60,153,110;
+          --bs-btn-active-color: #fff;
+          --bs-btn-active-bg: #146c43;
+          --bs-btn-active-border-color: #13653f;
+          --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          --bs-btn-disabled-color: #fff;
+          --bs-btn-disabled-bg: #198754;
+          --bs-btn-disabled-border-color: #198754;
+      }
+    </style>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- Physics AiD -->
+          <img src="./images/logo1.jpg" alt="image" class="brandLogo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#batches">BATCHES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_us">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact_us">CONTACT US</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="btn myBtn1" aria-current="page" href="#">
+                LOGIN 
+                <i class="fa-solid fa-arrow-right"></i>
+                <!-- <i class="bi bi-arrow-right-short"></i> -->
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <style>
+
+      @media screen and (min-width: 1026px) {}
+      @media screen and (min-width: 760px) and (max-width: 1025px) {}
+      @media screen and (max-width: 480px) {}
+    </style>
+    <section id="" class="">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel">
+      <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="./images/b1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./images/b0.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./images/b2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./images/b3.jpg" class="d-block w-100" alt="...">
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </section>
+
+    <style>
+      .courseInCard{
+        background: #fff;
+        border-radius: 1rem;
+      }
+      .courseCardLink{
+        text-decoration: none;
+        color: black;
+      }
+      .courseCard:hover{
+        box-shadow: 0px 0px 10px #15C8F2;
+      }
+      .courseCardTitle{
+        min-height: 10vh;
+      }
+    </style>
+    <section id="courses" class="py-5">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center pb-md-5 pb-3">
+          <div class="col-md-2 col-4">
+            <h1>Courses</h1>
+          </div>
+          <div class="col-md-10 col-8">
+            <hr class="headingHr">
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="courseInCard p-md-3 p-3">
+              <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="courseCardLink">
+                    <div class="card courseCard">
+                      <img src="./images/c1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title courseCardTitle fw-bold">Full Stack Web Development with ...</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-md-2 ps-0"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="courseCardLink">
+                    <div class="card courseCard">
+                      <img src="./images/c2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title courseCardTitle fw-bold">Full Stack Web</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="courseCardLink">
+                    <div class="card courseCard">
+                      <img src="./images/c3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title courseCardTitle fw-bold">Full Stack Web Development ...</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="courseCardLink">
+                    <div class="card courseCard">
+                      <img src="./images/c4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title courseCardTitle fw-bold">Full Stack Web Development ...</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <div class="row justify-content-center align-items-center pt-3">
+                <div class="col-lg-3 col-md-6 ">
+                  <a href="#" class="btn myBtn1 d-block">
+                    SEE ALL <i class="fa-solid fa-arrow-right ps-md-2 ps-0"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .batchInCard{
+        background: #101828;
+        border-radius: 1rem;
+      }
+      .batchCardLink{
+        text-decoration: none;
+        color: black;
+      }
+      .batchCard:hover{
+        box-shadow: 0px 0px 10px #15C8F2;
+      }
+      .batchCardTitle{
+        min-height: 10vh;
+      }
+    </style>
+    <section id="batches" class="py-5">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center pb-md-5 pb-3">
+          <div class="col-md-2 col-4">
+            <h1>Batches</h1>
+          </div>
+          <div class="col-md-10 col-8">
+            <hr class="headingHr">
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="batchInCard px-md-3 p-3 py-md-5">
+              <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="batchCardLink">
+                    <div class="card batchCard">
+                      <img src="./images/HSC 25 Sat.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title batchCardTitle fw-bold">HSC 25 Sat-Mon-Wed</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-md-2 ps-0"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-3">
+                  <a href="" class="courseCardLink">
+                    <div class="card courseCard">
+                      <img src="./images/HSC 25 Sun.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title courseCardTitle fw-bold">HSC 25 Sun-Tue-Thu</h5>
+                        <a href="#" class="btn myBtn1 d-block">
+                          SEE DETAILS <i class="fa-solid fa-arrow-right ps-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <div class="row justify-content-center align-items-center pt-3">
+                <div class="col-lg-3 col-md-6 ">
+                  <a href="#" class="btn myBtn1 d-block">
+                    SEE ALL <i class="fa-solid fa-arrow-right ps-md-2 ps-0"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .headingHr{
+        color: #15C8F2;
+        border: 2px solid #15C8F2;
+      }
+    </style>
+    <section id="about_us" class="py-5">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center pb-md-5 pb-3">
+          <div class="col-md-3 col-5">
+            <h1>About Us</h1>
+          </div>
+          <div class="col-md-9 col-7">
+            <hr class="headingHr">
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-7 text-md-start text-center">
+            <h3>Physics AiD</h3>
+            <h5 class="py-md-4 py-2">A Special Academy or Platform for Learning HSC & Admission Physics in an Interactive & Effective Way</h5>
+            <p>I try to provide quality education in my academy as well as online platforms so that my students can build up their concept on each topic relevant to their syllabus through proper guidelines, practices and make a good impact on their way to success.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="./images/specification.jpg" alt="image" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .contactInCard{
+        background: #15c9f22f;
+        border-radius: 1rem;
+      }
+    </style>
+    <section id="contact_us" class="py-5 bg-white">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center pb-md-5 pb-3">
+          <div class="col-md-3 col-6">
+            <h1>Contact Us</h1>
+          </div>
+          <div class="col-md-9 col-6">
+            <hr class="headingHr">
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="contactInCard p-md-5 p-3">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                  <img src="./images/typing.png" alt="image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 pt-md-0 pt-4">
+                  <h3 class="pb-3">Please fill out the form below and we will get back to you as soon as possible.</h3>
+                  <form action="" method="post">
+                    <div class="row justify-content-center">
+                      <div class="col-12 py-2">
+                        <label for="name">Enter Your Name:</label>
+                        <input type="text" id="name" class="form-control my-1">
+                      </div>
+                      <div class="col-12 pb-2">
+                        <label for="email">Enter Your Email:</label>
+                        <input type="text" id="email" class="form-control my-1">
+                      </div>
+                      <div class="col-12 pb-2">
+                        <label for="message">Enter Your Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="2" class="form-control my-1"></textarea>
+                      </div>
+                      <div class="col-6 pb-3">
+                        <div class="row">
+                          <button class="btn btn-dark">Send Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .footerLink{
+        text-decoration: none;
+        color: black;
+      }
+      .footerLink:hover{
+        color: #15C8F2;
+        border-bottom: 1px solid #15C8F2;
+      }
+      .footerSocial{
+        padding: 7px;
+        background: white;
+        border: 1px solid gray;
+        border-radius: .5rem;
+        
+      }
+      .footerSocial:hover{
+        border: 1px solid #15C8F2;
+        background: #15c9f21a;
+      }
+    </style>
+    <footer style="background: #FFFBEE;" class="py-5">
+      <div class="container">
+        <div class="row text-md-start text-center">
+
+          <div class="col-lg-3">
+            <h3 class="fw-bold">
+              <img src="./images/logo1.jpg" alt="image" class="brandLogo">
+            </h3>
+            <p>Online Live Skill Development Platform</p>
+            <h6>Stay connected with the community</h6>
+            <hr class="mt-0">
+            <div class="pb-4">
+              <a href="https://www.facebook.com/PhysicsAiDKhulna" class="footerSocial" target="_blank"><img src="./images/facebook.svg" alt=""></a>
+              <!-- <a href="" class="footerSocial" target="_blank"><img src="./images/instagram.svg" alt=""></a> -->
+              <a href="https://www.youtube.com/@PhysicsAiD" class="footerSocial" target="_blank"><img src="./images/youtube.svg" alt=""></a>
+              <!-- <a href="" class="footerSocial" target="_blank"><img src="./images/tiktoksvg.svg" alt=""></a> -->
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <h5 class="fw-bold pb-2">Quick Link</h5>
+            <ul style="list-style: none;"class="ps-0">
+              <li><a href="#" class="footerLink">Live Batch</a></li>
+              <li><a href="#" class="footerLink">Free Courses</a></li>
+              <li><a href="#" class="footerLink">Live Workshop</a></li>
+              <li><a href="#" class="footerLink">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="fw-bold pb-2">Company</h5>
+            <ul style="list-style: none;"class="ps-0">
+              <li><a href="#" class="footerLink">About Us</a></li>
+              <li><a href="#" class="footerLink">Contact Us</a></li>
+              <li><a href="#" class="footerLink">Privacy Policy</a></li>
+              <li><a href="#" class="footerLink">Terms And Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="fw-bold pb-2">Contacts</h5>
+            <ul style="list-style: none;"class="ps-0">
+              <li><a href="#" class="footerLink">01985-548604</a></li>
+              <li><a href="#" class="footerLink">mehedisirsonlineclassroom@gmail.com</a></li>
+              <li><a href="#" class="footerLink">PTI Mor, Miapara Road, Khulna.</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
