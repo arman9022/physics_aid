@@ -1,0 +1,118 @@
+@media screen and (min-width: 1026px) {}
+@media screen and (min-width: 760px) and (max-width: 1025px) {}
+@media screen and (max-width: 480px) {}
+
+
+/* body */
+*{
+  font-family:Playpen Sans;
+  scroll-behavior: smooth;
+}
+
+/* nav */
+.brandLogo{
+  width: 100px;
+  height: auto;
+}
+.nav-item a{
+  font-weight: bold;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #15C8F2;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #15C8F2;
+}
+.myBtn1 {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #15c9f28a;
+    --bs-btn-border-color: #15c9f28a;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #15C8F2;
+    --bs-btn-hover-border-color: #15C8F2;
+
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #198754;
+    --bs-btn-disabled-border-color: #198754;
+}
+
+/* carousel */
+
+
+/* courses */
+.courseInCard{
+  background: #fff;
+  border-radius: 1rem;
+}
+.courseCardLink{
+  text-decoration: none;
+  color: black;
+}
+.courseCard:hover{
+  box-shadow: 0px 0px 10px #15C8F2;
+}
+.courseCardTitle{
+  min-height: 10vh;
+}
+
+/* batches */
+.batchInCard{
+  background: #101828;
+  border-radius: 1rem;
+}
+.batchCardLink{
+  text-decoration: none;
+  color: black;
+}
+.batchCard:hover{
+  box-shadow: 0px 0px 10px #15C8F2;
+}
+.batchCardTitle{
+  min-height: 10vh;
+}
+
+/* free_test */
+.headingHr{
+  color: #15C8F2;
+  border: 2px solid #15C8F2;
+}
+
+/* about_us */
+.headingHr{
+  color: #15C8F2;
+  border: 2px solid #15C8F2;
+}
+
+/* contact_us */
+.contactInCard{
+  background: #15c9f22f;
+  border-radius: 1rem;
+}
+
+/* footer */
+.footerLink{
+  text-decoration: none;
+  color: black;
+}
+.footerLink:hover{
+  color: #15C8F2;
+  border-bottom: 1px solid #15C8F2;
+}
+.footerSocial{
+  padding: 7px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: .5rem;
+  
+}
+.footerSocial:hover{
+  border: 1px solid #15C8F2;
+  background: #15c9f21a;
+}
+
