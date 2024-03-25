@@ -81,9 +81,25 @@
 }
 
 /* free_test */
+#free_test{
+  background: white;
+}
 .headingHr{
   color: var(--primary-color1);
   border: 2px solid var(--primary-color1);
+}
+.ftLink{
+  display: block;
+  text-decoration: none;
+  background: var(--primary-color1);
+  color: white;
+  text-align: center;
+  padding: 30px 0px;
+  border-radius: 1rem;
+  font-size: 33px;
+}
+.ftLink:hover{
+  box-shadow: 0px 0px 10px var(--primary-color1);
 }
 
 /* about_us */
